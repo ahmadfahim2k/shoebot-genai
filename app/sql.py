@@ -105,8 +105,12 @@ def sql_chain(question):
     if response is None:
         return "Sorry, there was a problem with the SQL query"
 
-    context = response.to_dict(orient='records')
+    total = len(response)
+    truncated = response.head(20)
+    context = truncated.to_dict(orient='records')
     answer = data_comprehension(question, context)
+    if total > 20:
+        answer += f"\n\n*Showing top 20 of {total} results.*"
     return answer
 
 

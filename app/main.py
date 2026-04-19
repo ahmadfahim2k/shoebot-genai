@@ -29,6 +29,9 @@ def ask(query):
 
 st.markdown("""
 <style>
+    .stAppDeployButton {display: none;}
+    .block-container {padding-top: 1rem;}
+    [data-testid="stSidebar"] > div:first-child {padding-top: 1rem;}
     .stChatMessage div[data-testid="stMarkdownContainer"] {
         word-wrap: break-word;
         overflow-wrap: break-word;
