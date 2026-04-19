@@ -1,15 +1,16 @@
-from dotenv import dotenv_values
+import os
 from pathlib import Path
 import uuid
 import pandas as pd
 import chromadb
 from chromadb.utils import embedding_functions
+from dotenv import load_dotenv
 from groq import Groq
 
-config = dotenv_values()
+load_dotenv()
 
-GROQ_API_KEY = config["GROQ_API_KEY"]
-GROQ_MODEL = config["GROQ_MODEL"]
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_MODEL = os.getenv("GROQ_MODEL")
 
 # constants
 FAQ_PATH = Path(__file__).parent / "resources/faq_data.csv"
