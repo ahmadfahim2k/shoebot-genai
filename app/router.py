@@ -12,7 +12,8 @@ faq = Route(
         "Do I get a discount with HDFC credit card?",
         "How can I track my orders?",
         "What modes of payment are accepted?",
-        "How long does it take to process a refund?"
+        "How long does it take to process a refund?",
+        "What to do after I received incorrect product ?",
     ],
     score_threshold=0.3
 )
@@ -37,6 +38,7 @@ small_talk = Route(
         "Are you a robot?",
         "What are you?",
         "What do you do?",
+        "Hi ! Who are you ?",
     ]
 )
 
