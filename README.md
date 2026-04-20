@@ -4,17 +4,13 @@ An AI-powered shoe shopping assistant built with Streamlit. It uses semantic rou
 
 ## Live Demo
 
-[Try ShoeBot](<!-- Add your deployed URL here -->)
+[Try ShoeBot](https://shoebot-genai-mms8ehjedvkdvebneqnf9h.streamlit.app/)
 
 ## Screenshots
 
-| Chat Interface | Product Search |
-|:-:|:-:|
-| ![Chat Interface](screenshots/chat.png) | ![Product Search](screenshots/search.png) |
-
-| FAQ | Sidebar |
-|:-:|:-:|
-| ![FAQ](screenshots/faq.png) | ![Sidebar](screenshots/sidebar.png) |
+| Chat Interface | Product Search | FAQ |
+|:-:|:-:|:-:|
+| ![Chat Interface](screenshots/chat.png) | ![Product Search](screenshots/search.png) | ![FAQ](screenshots/faq.png) |
 
 ## Architecture
 
