@@ -8,9 +8,14 @@ An AI-powered shoe shopping assistant built with Streamlit. It uses semantic rou
 
 ## Screenshots
 
-| Chat Interface | Product Search | FAQ |
-|:-:|:-:|:-:|
-| ![Chat Interface](screenshots/chat.png) | ![Product Search](screenshots/search.png) | ![FAQ](screenshots/faq.png) |
+### Chat Interface
+![Chat Interface](screenshots/chat.png)
+
+### Product Search
+![Product Search](screenshots/search.png)
+
+### FAQ
+![FAQ](screenshots/faq.png)
 
 ## Architecture
 
